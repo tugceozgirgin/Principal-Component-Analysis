@@ -1,2 +1,9 @@
 # Principal-Component-Analysis
-explores body measurement datasets under Amazon's management in great detail with the goal of predicting body weights through data science techniques.
+Explores body measurement datasets under Amazon's management in great detail with the goal of predicting body weights through data science techniques. A variety of body measurements, including ankle, arm-length, bicep, calf, chest, forearm, height, hip, leg-length, shoulder-breadth, shoulder-to-crotch, thigh, waist, wrist, and gender, are included in the dataset that is being examined. Each of these metrics adds something different to our knowledge of weight dynamics.
+
+The main emphasis of this study is on two related but not affecting each other sections: Regression using PCA and Applying Principal Component Analysis (PCA)
+without any Library Function. The goal of PCA, a crucial dimensionality reduction method, is to find underlying patterns and shrink the feature space while keeping all the important
+details from the original dataset. As a separate module from the previous PCA analysis, I experimented with regression using Principal Component Analysis (PCA) in the second part of the assignment.
+
+Principal Component Analysis (PCA) was manually implemented with the goal of reducing the dataset's dimensionality without the use of library tools. I have built a clear understanding of data preprocessing for PCA, calculating covariance matrix, eigenvalues, and eigenvectors, and projection of the data to reduce the dimension through applying PCA on my own in this process. Furthermore, I observed that the research showed how the reconstruction error dropped as the number of components increased through dimensionality reduction and reconstruction, proving the effectiveness of PCA in maintaining data integrity while cutting dimensions. Furthermore, displaying the data in a reduced-dimensional space provided a visual depiction of the structure of the reduced dataset.
+
